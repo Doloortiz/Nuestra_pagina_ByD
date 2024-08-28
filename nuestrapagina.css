@@ -45,7 +45,7 @@ iframe {
 }
 /*****************************/
 .franja {
-    display: inline;
+    display: inline-block;
     width: 230px;
 }
 
