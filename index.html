@@ -8,10 +8,30 @@
     <link rel="icon" type="image/x-icon" href="">
 </head>
 <body>
-    <h1 class="tiempo">745 horas</P>
+    <div id="contador" class="reloj">
+        <script>
+            const fechaInicio = new Date('2024-08-09T16:00:00'); 
+        
+            function actualizarContador() {
+                const ahora = new Date();
+                const tiempoTranscurrido = ahora - fechaInicio;
+        
+                const segundos = Math.floor(tiempoTranscurrido / 1000);
+                const minutos = Math.floor(segundos / 60);
+                const horas = Math.floor(minutos / 60);
+                const dias = Math.floor(horas / 24);
+        
+                document.getElementById('contador').innerText = ` ${dias}   - ${horas % 24}   - ${minutos % 60}   - ${segundos % 60}  `;
+            }
+            // Actualiza el contador cada segundo
+            setInterval(actualizarContador, 1000);
+        </script>
+    </div>
+    <section class="reloj-texto">
+        <p>Dias - Horas - Minutos - Segundos</p>
+    </section>
     <h2>Siendo la mas feliz</p>
     <h3>Gracias por todo</p>
-    <h4>Para el mejor novio del mundo, Dolo :)</h5>
     <section class="album">
         <img src="fotos/2.jpeg" class="foto-album">
         <img src="fotos/1.jpeg" class="foto-album">
@@ -29,16 +49,15 @@
         <iframe src="https://open.spotify.com/embed/track/6ZvsmvXknoN8uK2MSEGpwT?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe src="https://open.spotify.com/embed/track/3i22RR1yUia5ShKujgQcX3?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </section>
-    <!--?????????????????????????-->
     <fieldset class="franja">
         <p class="texto-franja">B & D</p>
-        <P class="texto-franja">♥</P>
+        <P class="texto-franja">♥️</P>
         <p class="texto-franja">B & D</p>
-        <P class="texto-franja">♥</P>
+        <P class="texto-franja">♥️</P>
         <p class="texto-franja">B & D</p>
-        <P class="texto-franja">♥</P>
+        <P class="texto-franja">♥️</P>
         <p class="texto-franja">B & D</p>
-        <P class="texto-franja">♥</P>
+        <P class="texto-franja">♥️</P>
     </fieldset>
 </body>
 </html>
