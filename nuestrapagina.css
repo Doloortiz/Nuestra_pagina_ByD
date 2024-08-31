@@ -5,17 +5,13 @@ h2 {
     text-align: center;
     color: #944f71;
     font-size: 35px;
-    font-family:cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
     text-align: center;
     color:  #8a8780;
     font-size: 30px;
-    font-family: cursive;
-    /*Georgia, 'Times New Roman', Times, serif; horiz linda
-    'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; gorda
-    serif; fina normal
-    cursive;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /**********contador************/
 .reloj {
@@ -23,7 +19,7 @@ h3 {
     margin-top: 1.5%;
     font-size: 33px;
     color: rgb(24, 98, 119);
-    font-family:cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 /*******************album fotos********************/
 .album {
@@ -74,6 +70,7 @@ iframe {
 .link-calendario {
     text-decoration: none;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 button:hover {
     background-color: #8a8780;
@@ -81,7 +78,7 @@ button:hover {
 /*********calendario**********/
 h1 {
     text-align: center;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(24, 98, 119);
 }
 ol {
