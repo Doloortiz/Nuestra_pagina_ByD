@@ -16,7 +16,7 @@ h3 {
 /**********contador************/
 .reloj {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3%;
     font-size: 33px;
     color: rgb(24, 98, 119);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -35,36 +35,41 @@ h3 {
     margin-left: 15%;
     border-radius: 15px;
 }
+.foto-horiz {
+    border-radius: 15px;
+    width: 88%;
+    height: auto;
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
 /****************musica****************/
 .cancion {
     float: left;
-    width: 40%;
+    width: 42%;
     border: 2.2px solid  rgb(24, 98, 119);
-    margin-top: 10%;
+    border-radius: 15px;
+    margin-top: 7%;
     margin-left: 5%;
 }
 div.cancion img {
     width: 100%;
-    height: auto;
+    border-radius: 15px;
 }
 .desc-cancion {
     padding: 15px;
     text-align: center;
 }
-.canciones {
-    display:inline-flex;
+.escuchar1 {
+    padding: 10px;
+    color: grey;
+    margin-right: 16%;
+    text-align: right;
 }
-/*************fieldset****************/
-.franja {
-    display: flex;
-    width: 100%;
-    border: none;
-    font-size: 15px;
-}
-.texto-franja {
-    font-family:cursiva;
-    margin: 0.5%;
-    color:#944f71;
+.escuchar2 {
+    padding: 10px;
+    color: grey;
+    margin-left: 16%;
+    text-align: left;
 }
 /************boton************/
 .calendario {
@@ -75,8 +80,9 @@ div.cancion img {
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
-    margin-left: 30%;
-    margin-top: 7%;
+    margin-left: 32.3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 .link-calendario {
     text-decoration: none;
@@ -114,4 +120,17 @@ ol {
 }
 .imagen {
     width: 65px;
+}
+/*************fieldset****************/
+.franja {
+    display: flex;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    margin-top: 1%;
+}
+.texto-franja {
+    font-family:cursiva;
+    margin: 0.5%;
+    color:#944f71;
 }
