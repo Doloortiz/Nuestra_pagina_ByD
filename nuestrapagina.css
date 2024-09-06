@@ -43,25 +43,26 @@ h3 {
     margin-bottom: 5%;
 }
 /****************musica****************/
-.cancion {
+.img1 {
+    border-radius: 15px;
     float: left;
     width: 43%;
     border: solid  rgb(24, 98, 119);
     border-radius: 15px;
     margin-left: 5%;
 }
-div.cancion img {
-    width: 100%;
+.img2 {
     border-radius: 15px;
-}
-.desc-cancion {
-    padding: 15px;
-    text-align: center;
+    float: right;
+    width: 43%;
+    border: solid  rgb(24, 98, 119);
+    border-radius: 15px;
+    margin-left: 5%;
 }
 .escuchar1 {
     padding: 10px;
     color: grey;
-    margin-right: 14%;
+    margin-right: 11%;
     text-align: right;
 }
 .escuchar2 {
@@ -79,7 +80,7 @@ div.cancion img {
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
-    margin-left: 32.3%;
+    margin-left: 33%;
     margin-top: 5%;
     margin-bottom: 2%;
 }
