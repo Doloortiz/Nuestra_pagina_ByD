@@ -49,7 +49,8 @@ h3 {
     width: 43%;
     border: solid  rgb(24, 98, 119);
     border-radius: 15px;
-    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-left: 4%;
 }
 .img2 {
     border-radius: 15px;
@@ -57,12 +58,12 @@ h3 {
     width: 43%;
     border: solid  rgb(24, 98, 119);
     border-radius: 15px;
-    margin-left: 5%;
+    margin-right: 4%;
 }
 .escuchar1 {
     padding: 10px;
     color: grey;
-    margin-right: 7%;
+    margin-right: 13%;
     text-align: right;
 }
 .escuchar2 {
@@ -94,6 +95,7 @@ h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(24, 98, 119);
+    font-size: 30px;
 }
 ol {
     display: grid;
@@ -139,4 +141,12 @@ ol {
     font-family:cursiva;
     margin: 0.5%;
     color:#944f71;
+}
+.franja-calendario {
+    display: flex;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    margin-top: 83%;
+
 }
