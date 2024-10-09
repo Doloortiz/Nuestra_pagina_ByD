@@ -110,6 +110,10 @@ ol {
     grid-column-start: 7;
     color: #944f71;
 }
+.first-day-oct {
+    grid-column-start: 2;
+    color: #944f71;
+}
 .day-name {
     color:#5c5b57;
 }
@@ -119,8 +123,8 @@ ol {
 .dia {
     color:rgb(24, 98, 119);
 }
-.corazon-gris {
-    color: rgb(231, 213, 213)
+.corazon-7 {
+    color: rgb(116, 98, 98)
 }
 .flecha {
     cursor: pointer;
