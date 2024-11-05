@@ -13,11 +13,23 @@ h3 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h4 {
+    text-align: center;
+    color:  #944f71;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /**********contador************/
 .reloj {
     text-align: center;
     margin-top: 3%;
     font-size: 33px;
+    color: rgb(24, 98, 119);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.reloj1 {
+    text-align: center;
+    font-size: 15px;
     color: rgb(24, 98, 119);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -112,6 +124,10 @@ ol {
 }
 .first-day-oct {
     grid-column-start: 2;
+    color: #944f71;
+}
+.first-day-nov {
+    grid-column-start: 5;
     color: #944f71;
 }
 .day-name {

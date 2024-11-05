@@ -58,10 +58,12 @@
     <section class="album">
         <img src="fotos/11.jpeg" class="foto-album">
         <img src="fotos/17.jpeg" class="foto-album">
-        <img src="fotos/12.jpeg" class="foto-album">
+        <img src="fotos/26.jpeg" class="foto-album">
         <img src="fotos/5.jpeg" class="foto-album">
         <img src="fotos/21.jpeg" class="foto-album">
         <img src="fotos/22.jpeg" class="foto-album">
+        <Img src="fotos/12.jpeg" class="foto-album">
+        <Img src="fotos/24.jpeg" class="foto-album">
     </section>
     <img src="fotos/horiz.3.jpeg" class="foto-horiz">
     <fieldset class="franja">
@@ -102,6 +104,29 @@
     <section class="boton-calendario">
         <button class="calendario"><a href="calendario.html" class="link-calendario">Calendario</a></button>   
     </section>
+    <h4>El verdadero tiempo del amor:</h4>
+    <div id="contador1" class="reloj1">
+        <script>
+            const fecha1 = new Date('2024-03-06T02:00:00'); 
+        
+            function actualizarContador1() {
+                const ahora1 = new Date();
+                const tiempoTranscurrido1 = ahora1 - fecha1;
+        
+                const segundos = Math.floor(tiempoTranscurrido1 / 1000);
+                const minutos = Math.floor(segundos / 60);
+                const horas = Math.floor(minutos / 60);
+                const dias = Math.floor(horas / 24);
+                
+                document.getElementById('contador1').innerText= ` ${dias} dias
+                ${horas % 24} horas 
+                ${minutos % 60} minutos
+                ${segundos % 60} segundos`;
+            }
+            // Actualiza el contador cada segundo
+            setInterval(actualizarContador1, 1000);
+        </script>
+    </div>
     <fieldset class="franja">
         <p class="texto-franja">♡</p>
         <P class="texto-franja">♡</P>
