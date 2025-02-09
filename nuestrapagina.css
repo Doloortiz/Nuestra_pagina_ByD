@@ -73,16 +73,16 @@ h4 {
     border-radius: 15px;
     margin-right: 4%;
 }
-.escuchar1 {
+.musica1 {
     padding: 10px;
     color: grey;
-    margin-right: 13%;
+    margin-right: 17%;
     text-align: right;
 }
-.escuchar2 {
+.musica2 {
     padding: 10px;
     color: grey;
-    margin-left: 14%;
+    margin-left: 15%;
     text-align: left;
 }
 /************boton calendario************/
@@ -178,4 +178,9 @@ ol {
     border: none;
     font-size: 15px;
     margin-top: 40%;
+}
+.raya-franja {
+    font-family: cursiva;
+    margin: 0.5%;
+    color:#b29ca7;
 }
