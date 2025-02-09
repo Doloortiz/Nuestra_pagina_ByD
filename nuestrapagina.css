@@ -184,3 +184,123 @@ ol {
     margin: 0.5%;
     color:#b29ca7;
 }
+
+/******** boton parte secreta **********/
+.text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color:rgb(78, 68, 68);
+}
+.boton-priv {
+    cursor: pointer;
+    margin-left: 42.5%;
+}
+/******** formulario ********/
+form {
+    margin: auto; 
+    padding-bottom: 2em;
+    display: grid;
+    place-items: center;
+}
+.form-words {
+    display: block; /*uno abajo del otro*/
+    text-align: center;
+    font-size: 14px;
+    color:rgb(78, 68, 68);
+}
+input {
+    margin: 10px 0 0 0;
+    width: 100%; /*que los rectangulos ocupe 100%*/
+    min-height: 1.5em; /*tamano rectangulos*/
+    background-color:rgb(210, 205, 205);
+    border: 1px solid rgb(210, 205, 205);
+}
+button[type="submit"] {
+    display: block;
+    width: 20%;
+    margin-top: 1em;
+    height: 2em;
+    font-size: 1rem;
+    background-color:rgb(197, 190, 190);
+    border-color:rgb(197, 190, 190);
+    color:rgb(111, 108, 105);
+}
+.div-contraseña{
+    margin-bottom: 10%;
+    margin-top: 13%;
+}
+.foto-corazon {
+    width: 65px;
+    margin-left: 21%;
+}
+/******* PRIV *******/
+.p-priv {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:rgb(78, 68, 68);
+}
+.album-3 {
+    column-count: 3;
+    position: relative;
+    width: 88%;
+}
+.foto-3 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15%;
+    margin-left: 22%;
+    border-radius: 15px;
+}
+.foto-3-1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15%;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+.foto-4-1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15%;
+    margin-left: 14%;
+    border-radius: 15px;
+}
+.album-4 {
+    column-count: 2;
+    position: relative;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 23%; 
+}
+.foto-4 {
+    display: block;
+    width: 98%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 28%;
+}
+.boton-video {
+    display: block;
+    width: 20%;
+    height: 2em;
+    font-size: 1rem;
+    background-color:rgb(197, 190, 190);
+    border-color:rgb(197, 190, 190);
+    margin: auto;
+    margin-bottom: 5%;
+}
+.video {
+    text-decoration: none;
+    color:#5c5b57;
+    border-radius: 15px;
+}
+.videover {
+    margin-left: 5%;
+}
